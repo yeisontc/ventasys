@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+
+</head>
+<body>
+    <style>*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    body{
+        font-family: "Poppins", sans-serif;
+    }
+    
+    
+    img{
+        max-width: 90%;
+        
+    
+    }
+    .container{
+        max-width: 1200px;
+        margin:0 auto;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        background-color:#EFF3F4;
+        padding: 130px 0 0 0;
+    }
+    .menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+   
+    .menu .navbar ul li{
+        position: relative;
+        float: left;
+    }
+    .menu .navbar ul li a{
+        font-size: 18px;
+        padding: 20px;
+        color: black;
+        display: block;
+    }
+    .menu .navbar ul li a:hover{
+        color: hsl(240, 100%, 50%);
+        background-color: yellow;
+    }
+   
+        
+        </style>
+    <header class="header">
+        <div class="menu container">
+           
+                <img src="imagenes/logo.jpg" alt="" width="80" height="50"></a>
+           
+            <nav class="navbar">
+                <ul>
+                    <li> <a href="indexis.html">Inicio</a></li>
+                    <li> <a href="servicios.html">Servicios</a></li>
+                    <li> <a href="productos.html">productos</a></li>
+                    <li> <a href="contactos.html">contantos</a></li>
+                </ul>
+            </nav>
+        
+                </li>
+            </ul>
+        </div>
+        </div>
+       
+             <div class="header-img ">
+                <img src="imagenes/telefono.jpg" alt="">
+             </div>
+        </div>
+    </header>
+   
+
+    
+
+
+        <hr>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            min-width: 100vh;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+        }
+form{
+   padding: 50px 55px;
+   box-shadow: 0 0 20px rgba(0,0,0,0.2);
+   border-radius: 20px;
+   text-align: center;
+   width: 340px;
+    
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+h2{
+    color: #283629;
+    font-size: 35px;
+}
+label{
+    color: #283629;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+}
+input,textarea{
+    padding: 17px 25px;
+    border-radius: 20px;
+    background-color: #edfffe;
+    border: 2px solid #f0faf1;
+    color: #283629;
+    outline: none;
+}
+input::placeholder,textarea::placeholder{
+   color: #b5cab6; 
+}
+.form-txt{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.form-txt a{
+    color: #76b28e;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn{
+    font-size: 16px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    box-shadow: 0 0 20px rgba(25,254,0,0.4);
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: #50e04b;
+}
+@media(max-width:991PX){
+    body{
+        padding: 30px;
+    }
+    form{
+        padding: 50px 30px;
+    }
+    input{
+        padding: 15px;
+    }
+}
+form{
+    margin-left: auto;
+}
+    </style>
+</head>
+<body>
+    <hr>
+    <form action="https://formsubmit.co/yeisontorrescoronado10@gmail.com">
+    <h2>contatanos</h2>
+    <div class="input-group">
+    <label  for="name">Nombre</label>
+        <input type="text"name="name" placeholder="Nombre"> 
+        <label for="phone">telefono</label>
+        <input type="tel"name="phone" placeholder="telefono"> 
+        <label for="email">Email:</label>
+        <input type="email"name="email" placeholder="Email"> 
+        <label for="message">Mensaje:</label>
+        <textarea type="message"id="message"cols="30"rows="5" placeholder="Mensaje"> </textarea>
+        <div class="for-txt">
+        <a href="#">politica de prevacidad</a>
+        <a href="#">terminos y condiciones</a>
+        </div>
+   <input class="btn" type="submit"value="Enviar">
+    </div>
+    </form>
+</body>
+</html>
